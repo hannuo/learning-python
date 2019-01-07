@@ -4,4 +4,18 @@ New
 
 1. 若想自己的flask框架网站可被外部访问，记得在app.py  app.run(host="0.0.0.0" ...    添加host信息为0.0.0.0
 
-2.
+New
+
+1.在ubuntu上安装mysql-server，python 操作mysql数据库
+
+1.1  apt-get install mql-server(update upgrade apt repository)
+
+1.2 myql_secure_installation 
+设置一些属性
+
+1.3 常用的mysql命令
+http://www.cnblogs.com/shenqz/p/6962493.html 
+GRANT ALL PRIVILEGES ON *.* TO 'yueen'@'%' IDENTIFIED BY '你的密码' WITH GRANT OPTION;
+
+1.4 pip3 install mysql-connector-python
+MySQL服务器以独立的进程运行，并通过网络对外服务，所以，需要支持Python的MySQL驱动来连接到MySQL服务器。MySQL官方提供了mysql-connector-python驱动
