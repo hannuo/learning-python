@@ -25,7 +25,7 @@ def now2():
 
 print('now2().__name %s' % now2.__name__)
 now2()
-#把@log放到now()函数的定义处，相当于执行了语句：now2=log(now2)
+#把@log放到now2()函数的定义处，相当于执行了语句：now2=log(now2)
 	
 #foo = timeit(foo)换成foo1 = timeit(foo)然后你调用foo就是原函数，调用foo1就是装饰过的函数。
 #装饰器的作用是可以抽离出大量与函数功能本身无关的雷同代码并继续重用，简单点说就是重用
